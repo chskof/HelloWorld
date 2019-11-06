@@ -1,3 +1,4 @@
+"""
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -11,3 +12,4 @@ mycursor.execute("SELECT * FROM person")
 myresult = mycursor.fetchall()
 for x in myresult:
     print(x)
+"""
